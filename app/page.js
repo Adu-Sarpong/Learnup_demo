@@ -1,10 +1,10 @@
-import About from '@/Components/About';
-import Contact from '@/Components/Contact';
-import Experience from '@/Components/Experience';
-import Header from '@/Components/Header';
-import Hero from '@/Components/Hero';
-import Projects from '@/Components/Projects';
-import Socials from '@/Components/Socials';
+import About from '@/components/About';
+import Contact from '@/components/Contact';
+import Experience from '@/components/Experience';
+import Header from '@/components/Header';
+import Hero from '@/components/Hero';
+import Projects from '@/components/Projects';
+import Socials from '@/components/Socials';
 import React from 'react'
 
 export default function Home({}) {
