@@ -11,7 +11,7 @@ export const Hero = () => {
             <h1 className=" font-semibold text-gray-800 dark:text-white lg:text-5xl pb-1">Lets Find The Right Course For You.</h1>
 
             <p className="mt-6 text-gray-500 dark:text-gray-300 pb-4">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique obcaecati illum mollitia.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero simhgfilique obcaecati illum mollitia.
             </p>
 
             <form>
