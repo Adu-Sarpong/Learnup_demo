@@ -4,30 +4,61 @@ import React from 'react'
 export const Hero = () => {
     return (
         <>
-            <div id='home'
-                className='h-[54rem] w-full bg-cover bg-no-repeat' style={{ backgroundImage: `url(https://img.freepik.com/free-photo/ai-nuclear-energy-background-future-innovation-disruptive-technology_53876-129783.jpg?w=996&t=st=1695304506~exp=1695305106~hmac=f239bbcb56530fa8e7c2ff7147e5518396fecd9d4991cbb616dea4fa7eb1af79)` }}>
-                <div className='h-full w-full flex justify-center items-end bg-gradient-to-tr from-[#002B6B]/90 via-[#10011A]/70 to-[#070643]/70 bg-blend-multiply]'>
-                    <div className=' h-[66vh] w-1/3 space-y-10 pt-12'>
-                        <h1 className='text-4xl text-white'>
-                            🙋‍♂️ Hi I am{""} <span className='italic text-yellow-300 font-semibold'>Sarpong</span>
-                        </h1>
-                        <p className='text-gray-200 text-xl font-thin leading-relaxed tracking tracking-wider'>
-                            {'"Coding enthusiast with 6 years of professional software engineering experience. Crafting efficient solutions and optimizing code for real-world challenges. Passionate about technology and always eager to embrace new opportunities."'}
-                        </p>
-                    </div>
-                    <div className=' h-[70vh] w-1/3 relative'>
-                        <Image
-                        src={"/me.jpg"}
-                        fill
-                        alt="alpha"
-                        priority={true}
-                        className='object-contain'
-                        />
+            <div id='home'  className='h-[40rem] w-full bg-cover bg-no-repeat' style={{backgroundImage:`url('/img1.jpg')`}}>
+{/* <img src="/img1.jpg" alt="my image"/> */}
+<div className="container px-2 py-40 mx-auto text-center">
+        <div className="max-w-xl mx-auto">
+            <h1 className=" font-semibold text-gray-800 dark:text-white lg:text-5xl pb-1">Lets Find The Right Course For You.</h1>
 
-                        
-                    </div>
-                </div>
+            <p className="mt-6 text-gray-500 dark:text-gray-300 pb-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero similique obcaecati illum mollitia.
+            </p>
 
+            <form>
+  <label
+    htmlFor="default-search"
+    className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white"
+  >
+    Search
+  </label>
+  <div className="relative">
+    <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+      <svg
+        className="w-4 h-4 text-gray-500 dark:text-gray-400"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 20 20"
+      >
+        <path
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+        />
+      </svg>
+    </div>
+    <input
+      type="search"
+      id="default-search"
+      className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50  dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-gray-600  "
+      placeholder="Search Mockups, Logos..."
+      required=""
+    />
+    <button
+      type="submit"
+      className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-red-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-red-300 "
+    >
+      Search
+    </button>
+  </div>
+</form>
+
+        </div>
+
+       
+    </div>
             </div>
         </>
     )
