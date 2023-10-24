@@ -13,6 +13,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        customPink: '#DE4278', // Define your custom color here
+        customBlue: '#041E42',
+      },
     },
   },
   plugins: [],

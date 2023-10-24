@@ -29,10 +29,10 @@ export default function Header() {
 
           <nav className="flex-col items-center flex-grow hidden pb-4 border-blue-600 md:pb-0 md:flex md:justify-start md:flex-row lg:border-l-2 lg:pl-2 pr-10 ">
             {/* Other navigation links */}
-            <Link href="" className='hover:scale-125 duration-300 hover:text-red-300 pl-10 pr-10' >Home</Link>
-            <Link href="" className='hover:scale-125 duration-300 hover:text-red-300 pr-10' >Courses</Link>
-            <Link href="" className='hover:scale-125 duration-300 hover:text-red-300 pr-10' >About Us</Link>
-            <Link href="" className='hover:scale-125 duration-300 hover:text-red-300 pr-10' >Contact Us</Link>
+            <Link href="" className='hover:scale-125 duration-300 hover:text-red-400 pl-10 pr-10' >Home</Link>
+            <Link href="" className='hover:scale-125 duration-300 hover:text-red-400 pr-10' >Courses</Link>
+            <Link href="" className='hover:scale-125 duration-300 hover:text-red-400 pr-10' >About Us</Link>
+            <Link href="" className='hover:scale-125 duration-300 hover:text-red-400 pr-10' >Contact Us</Link>
 
             <div className="relative"
               onMouseEnter={toggleDropdown}
@@ -40,7 +40,7 @@ export default function Header() {
             >
 
               <button
-                className="flex flex-row items-center w-full px-4 py-2 mt-2 font-medium text-left text-black md:w-auto md:inline md:mt-0 hover:text-red-300 focus:outline-none focus:shadow-outline"
+                className="flex flex-row items-center w-full px-4 py-2 mt-2 font-medium text-left text-black md:w-auto md:inline md:mt-0 hover:text-red-400 focus:outline-none focus:shadow-outline"
 
 
               >
@@ -48,7 +48,7 @@ export default function Header() {
               </button>
              
               {isDropdownOpen && (
-                <div className="  absolute right-0  w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48 top-6">
+                <div className="  absolute right-0  w-screen mt-2 origin-top-right rounded-md shadow-lg md:w-48 top-7">
                   <div className="px-2 py-2 bg-white rounded-md shadow flex flex-col items-center"
                   
                   >
@@ -75,6 +75,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+     
     </>
   );
 }

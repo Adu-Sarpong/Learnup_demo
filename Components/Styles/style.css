@@ -1,0 +1,88 @@
+/* styles.css */
+
+.nav-link {
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-bottom: 4px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    border-color: #DE4278; /* Red color on hover */
+    transform: scale(1.1); /* Scale up on hover */
+   font-size: 17px;
+    color: #DE4278;
+  }
+  @keyframes scale-up {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.05);
+    }
+  }
+
+  
+/*  
+
+:root {
+  --black-gradient: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.feature-card:hover {
+  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
+}
+
+.feedback-card {
+  background: rgb#fef2f2;
+}
+
+.feedback-card:hover {
+  background: var(--black-gradient);
+} */
+/* 
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #ebebf3 -43.27%,
+    #abb2cb -21.24%,
+    #9196b9 12.19%,
+    #6966ef 29.82%,
+    #685fbe 51.94%,
+    #6b639e 90.29%
+  );
+} */
+/* SimpleSlider.css */
+.slick-slider {
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+.slick-slide {
+  background-color: #434c65; 
+  padding: 20px; 
+  text-align: center; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Custom styles for the dots (pagination) */
+.slick-dots {
+  bottom: 10px; /* Adjust the position of the dots */
+}
+
+.slick-dots li button::before {
+  font-size: 16px; /* Adjust the size of the dot indicators */
+}
