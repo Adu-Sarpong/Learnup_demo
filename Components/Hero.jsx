@@ -1,6 +1,7 @@
 "use client"
 import AllCategories from './AllCategoeries';
 import Blog from './Blog';
+import Companies from './Companies';
 import MySlider from './Companies';
 import CounterCard from './CounterCard';
 import CourseCat from './CourseCat';
@@ -73,7 +74,7 @@ export const Hero = () => {
 
                 </div>
             </div>
-          
+          <Companies/>
          <AllCategories/>
             <CounterCard />
             <CourseCat />

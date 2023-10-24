@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Image from 'next/image';
 const Companies = () => {
     return (
         <div className=''>
@@ -11,12 +11,48 @@ const Companies = () => {
 
 
                     <div className="flex flex-row items-center h-20 gap-32 ">
-                        <img src="/img1.jpg" alt="Example Image" className="w-24 h-10" />
-                        <img src="/img1.jpg" alt="Example Image" className="w-24 h-10" />
-                        <img src="/icon1.png" alt="Example Image" className="w-24 h-10" />
-                        <img src="/icon2.png" alt="Example Image" className="w-24 h-10" />
-                        <img src="/icon3.png" alt="Example Image" className="w-24 h-10" />
-                        <img src="/icon4.png" alt="Example Image" className="w-24 h-10" />
+                    <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
+                       <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
+                       <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
+                       <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
+                        <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
+                        <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
                     </div>
 
 

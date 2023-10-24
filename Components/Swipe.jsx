@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import Image from 'next/image';
 
 export default class SimpleSlider extends Component {
     render() {
@@ -49,7 +49,13 @@ export default class SimpleSlider extends Component {
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
-                                <img src="/gg3.jpg" alt="" className="rounded-full h-14" />
+                            <Image
+                             width={70} // Specify the width in pixels
+                             height={200}
+        src="/gg3.jpg" // Path to the image in the public directory
+        alt=""
+        className="rounded-full h-14"
+      />
                                 <div>
                                     <h5 className="text-[17px] mb-0.5">Eleanor Pena</h5>
                                     <span className="text-gray-500">Coo, Globex Corporation</span>
@@ -84,7 +90,13 @@ export default class SimpleSlider extends Component {
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
-                                <img src="/gg3.jpg" alt="" className="rounded-full h-14" />
+                                <Image
+                                    width={70} // Specify the width in pixels
+                                    height={200}
+                                    src="/gg3.jpg" // Path to the image in the public directory
+                                    alt=""
+                                    className="rounded-full h-14"
+                                />
                                 <div>
                                     <h5 className="text-[17px] mb-0.5">Eleanor Pena</h5>
                                     <span className="text-gray-500">Coo, Globex Corporation</span>
@@ -119,7 +131,13 @@ export default class SimpleSlider extends Component {
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
-                                <img src="/gg3.jpg" alt="" className="rounded-full h-14" />
+                            <Image
+                                    width={70} // Specify the width in pixels
+                                    height={200}
+                                    src="/gg3.jpg" // Path to the image in the public directory
+                                    alt=""
+                                    className="rounded-full h-14"
+                                />
                                 <div>
                                     <h5 className="text-[17px] mb-0.5">Eleanor Pena</h5>
                                     <span className="text-gray-500">Coo Globex Corporation</span>
@@ -154,7 +172,13 @@ export default class SimpleSlider extends Component {
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
-                                <img src="/gg3.jpg" alt="" className="rounded-full h-14" />
+                                <Image
+                                    width={70} // Specify the width in pixels
+                                    height={200}
+                                    src="/gg3.jpg" // Path to the image in the public directory
+                                    alt=""
+                                    className="rounded-full h-14"
+                                />
                                 <div>
                                     <h5 className="text-[17px] mb-0.5">Eleanor Pena</h5>
                                     <span className="text-gray-500">Coo, Globex Corporation</span>
