@@ -45,7 +45,7 @@ export default class SimpleSlider extends Component {
                                 </svg>
                             </div>
 
-                            <h4 className="text-xl mb-3">"This office almost relaxing"</h4>
+                            <h4 className="text-xl mb-3">This office almost relaxing</h4>
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
@@ -80,7 +80,7 @@ export default class SimpleSlider extends Component {
                                 </svg>
                             </div>
 
-                            <h4 className="text-xl mb-3">"This office almost relaxing"</h4>
+                            <h4 className="text-xl mb-3">This office almost relaxing</h4>
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
@@ -115,14 +115,14 @@ export default class SimpleSlider extends Component {
                                 </svg>
                             </div>
 
-                            <h4 className="text-xl mb-3">"This office almost relaxing"</h4>
+                            <h4 className="text-xl mb-3">This office almost relaxing</h4>
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
                                 <img src="/gg3.jpg" alt="" className="rounded-full h-14" />
                                 <div>
                                     <h5 className="text-[17px] mb-0.5">Eleanor Pena</h5>
-                                    <span className="text-gray-500">Coo, Globex Corporation</span>
+                                    <span className="text-gray-500">Coo Globex Corporation</span>
                                 </div>
                             </div>
                         </div>
@@ -150,7 +150,7 @@ export default class SimpleSlider extends Component {
                                 </svg>
                             </div>
 
-                            <h4 className="text-xl mb-3">"This office almost relaxing"</h4>
+                            <h4 className="text-xl mb-3">This office almost relaxing</h4>
                             <p className="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Temporibus autem quibusdam et aut officiis debitis</p>
 
                             <div className="flex items-center gap-5 mt-14">
